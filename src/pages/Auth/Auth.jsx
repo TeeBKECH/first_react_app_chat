@@ -10,10 +10,8 @@ const Auth = () => {
   return (
     <section className="auth">
       <Routes>
-        <Route exact path="/" element={ <LoginForm /> }>
-          <Route exact path="login" element={ <LoginForm /> } />
-        </Route>
-        <Route exact path="/register" element={ <RegisterForm /> } />
+        <Route exact path="login" element={ <LoginForm /> } />
+        <Route exact path="register" element={ <RegisterForm /> } />
       </Routes>
     </section>
   )
